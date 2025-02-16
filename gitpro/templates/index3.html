@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style1.css') }}">
+    <title>Resume Processing</title>
+</head>
+<body>
+    <h1>Resume and Job Description Processing</h1>
+    <form id="uploadForm" action="/process" method="POST" enctype="multipart/form-data">
+        <h3>Upload Resumes</h3>
+        <input type="file" name="resume_files" multiple><br><br>
+
+        <h3>Enter Job Description</h3>
+        <textarea name="job_description" rows="4" cols="50"></textarea><br><br>
+
+        <h3>Or Upload Job Description File</h3>
+        <input type="file" name="job_files" multiple><br><br>
+
+        <h3>Number of Top Ranked Resumes</h3>
+        <input type="number" name="top_n_resumes" min="1" max="100" value="10"><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
