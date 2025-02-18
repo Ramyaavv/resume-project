@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "functions": {
+    "app11.py": {
+      "runtime": "python3.11"
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "app11.py"
+    }
+  ]
+}
