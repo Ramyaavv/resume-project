@@ -1,3 +1,6 @@
+pip>=25.0.1
+setuptools>=65.5.1
+wheel
 absl-py==2.1.0
 aiofiles==22.1.0
 aiohappyeyeballs==2.4.3
@@ -177,7 +180,7 @@ nltk==3.9.1
 notebook==6.5.4
 notebook_shim==0.2.3
 numba==0.59.1
-numpy==1.25.2
+numpy==1.21.6
 openai==1.63.2
 openai-whisper @ git+https://github.com/openai/whisper.git@90db0de1896c23cbfaf0c58bc2d30665f709f170
 opencv-contrib-python==4.11.0.86
@@ -249,7 +252,7 @@ rfc3986-validator==0.1.1
 rich==13.9.1
 safetensors==0.4.4
 scikit-learn==1.2.2
-scipy==1.15.1
+scipy==1.7.3
 seaborn==0.13.0
 semver==2.13.0
 Send2Trash==1.8.2
