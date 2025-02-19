@@ -124,9 +124,6 @@ lazy_loader==0.4
 libclang==18.1.1
 librosa==0.10.2.post1
 linkify-it-py==2.0.3
-llvmlite==0.42.0
-lxml==5.2.2
-lz4==4.3.3
 marisa-trie==1.2.0
 Markdown==3.6
 markdown-it-py==3.0.0
