@@ -15,7 +15,7 @@ scikit-learn==1.2.2
 numpy==1.21.6
 torch==2.4.1
 transformers
-sentence-transformers==3.1.1
+sentence-transformers
 Pillow==9.4.0
 opencv-python==4.9.0.80
 opencv-python-headless==4.11.0.86
