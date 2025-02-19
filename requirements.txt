@@ -16,6 +16,7 @@ numpy>=1.25.0
 torch==2.4.1
 transformers
 sentence-transformers
+python-docx
 Pillow==9.4.0
 opencv-python==4.9.0.80
 opencv-python-headless==4.11.0.86
