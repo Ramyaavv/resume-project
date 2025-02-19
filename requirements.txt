@@ -12,7 +12,7 @@ pytesseract==0.3.13
 nltk==3.9.1
 spacy==3.7.5
 scikit-learn==1.2.2
-numpy==1.21.6
+numpy
 torch==2.4.1
 transformers
 sentence-transformers
