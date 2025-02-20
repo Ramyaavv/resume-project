@@ -16,6 +16,14 @@ numpy>=1.25.0
 torch==2.4.1
 transformers
 sentence-transformers
+keras
+tf-keras
+spacy
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
+tiktoken
+blobfile
+sentencepiece==0.1.99
+protobuf==3.20.*
 python-docx
 Pillow==9.4.0
 opencv-python==4.9.0.80
@@ -36,3 +44,4 @@ PyYAML==6.0.2
 aiohttp==3.10.8
 async-timeout==4.0.3
 typing-extensions==4.12.2
+
