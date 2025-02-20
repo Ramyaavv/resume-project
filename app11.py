@@ -76,7 +76,7 @@ ALLOWED_EXTENSIONS = {'pdf', 'doc', 'docx', 'txt', 'csv','png','jpg','jpeg'}
 EMAIL_ADDRESS = "ramiavv39@gmail.com"
 EMAIL_PASSWORD = "ramya@555"
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-model = BertModel.from_pretrained('bert-base-uncased')
+model = BertModel.from_pretrained('bert-base-uncased',  trust_remote_code=True)
 model.eval()
 bert_model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
 processor = Wav2Vec2Processor.from_pretrained("facebook/wav2vec2-base-960h")
