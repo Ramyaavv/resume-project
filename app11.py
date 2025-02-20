@@ -19,7 +19,9 @@ from werkzeug.utils import secure_filename
 from werkzeug.datastructures import FileStorage
 import pathlib
 import torch
-from transformers import BertTokenizer, BertModel
+from transformers.models.bert.modeling_bert import BertModel
+from transformers.tokenization_bert import BertTokenizer
+#from transformers import BertTokenizer, BertModel
 from sklearn.metrics.pairwise import cosine_similarity
 import smtplib
 from email.mime.multipart import MIMEMultipart
